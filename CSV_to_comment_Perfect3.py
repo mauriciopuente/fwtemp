@@ -6,7 +6,7 @@
 
 # Author: Mauricio Puente Cadena.
 
-#Reads Filewave client names values from a CSV file, and writes the Asset tag to comments of iOS devices.
+#Reads Filewave client names values from a CSV file, and writes the Asset tag to Clients view comments.
 #
 #CSV Format is:
 #FileWave Client Name,Asset Tag
