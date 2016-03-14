@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="" />
+    <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="Changed CSV to Comment Perfect3 python script">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screensaver_off.sh" afterPath="$PROJECT_DIR$/screensaver_off.sh" />
+    </list>
     <ignored path="fwtemp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/screensaver_off.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.4758883">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -179,7 +182,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,6 +202,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3298" y="28" width="1774" height="908" extended-state="0" />
+    <frame x="3298" y="28" width="1774" height="908" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24985738" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -807,7 +810,7 @@
     <entry file="file://$PROJECT_DIR$/screensaver_off.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4758883">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>

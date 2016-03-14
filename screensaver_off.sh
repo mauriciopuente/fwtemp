@@ -2,7 +2,7 @@
 
 ########################## SET SYSTEM TIME  ##################################################
 #
-# This script does the folling:
+# This script does the following:
 #
 #
 # 1. Get the hardware UUID of the machine and put it in the location services db
