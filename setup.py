@@ -7,7 +7,7 @@ Usage:
 
 from setuptools import setup
 
-APP = ['openURL.py']
+APP = ['openURL2.py']
 DATA_FILES = []
 OPTIONS = {'argv_emulation': True}
 
