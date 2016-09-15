@@ -1,0 +1,43 @@
+#!/usr/bin/python
+import os
+import csv
+skip_first_line = 1
+
+def csvRowGenerator(spreadsheetPath):
+	""" returns iterator os rows in the spreadsheet 
+	"""
+	with open(spreadsheetPath, "rU") as pincsv:
+		pincsv.seek(0)		
+		i = 0
+		cardReader = csv.reader(pincsv)
+		for row in cardReader:
+			if skip_first_line == 1 and i==0:
+				i = 1
+				continue
+			i = i + 1
+			yield row
+			
+	pincsv.close()
+
+path= "/usr/local/etc/Filewave.csv"
+output = os.popen("ioreg -l | grep IOPlatformSerialNumber | awk '{print $4}' | sed 's/\"//g'").read()
+serial = output[:-1]
+
+name = "Name-not-found-in-csv"
+for row in csvRowGenerator(path):
+  if serial in row:
+    name = row[1].replace(' ', '-')
+
+
+
+plistName = "com.filewave.osx.naming.plist"
+client="/usr/local/etc/FileWaveClient.pkg"
+
+#now we have the serial and the name
+os.popen("scutil --set ComputerName %s" % (name))
+os.popen("scutil --set LocalHostName %s" % (name))
+os.popen("scutil --set HostName %s" % (name))
+os.popen("rm /System/Library/LaunchDaemons/%s" % (plistName))
+os.popen("/usr/sbin/installer -target / -pkg %s" % (client))
+
+

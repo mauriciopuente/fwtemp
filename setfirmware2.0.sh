@@ -54,7 +54,7 @@ function openrecovery {
 			/usr/sbin/diskutil mount "$recoverydiskname"
 			/usr/bin/hdiutil attach -quiet -nobrowse "$recoverydmg"
       echo "FileWave Firmware Password Status: OK, Recoverydisk Opened " >> /var/log/fwcld.log
-		elif [ ${getXver} -eq 10 ]
+		elif [ ${getXver} -eq 10 ] || [ ${getXver} -eq 11 ]
 		then
 			/usr/sbin/diskutil mount "$recoverydiskname"
 			/usr/bin/hdiutil attach -quiet -nobrowse "$recoverydmg"
@@ -76,7 +76,7 @@ function closerecovery {
 			/usr/bin/hdiutil detach "$PathDiskTwo"
 			/usr/sbin/diskutil unmount "$recoverydiskname"
       echo "FileWave Firmware Password Status: OK, Recoverydisk Closed " >> /var/log/fwcld.log
-		elif [ ${getXver} -eq 10 ]
+		elif [ ${getXver} -eq 10 ] || [ ${getXver} -eq 11 ]
 		then
 			/usr/bin/hdiutil detach "$PathDiskTwo"
 			/usr/sbin/diskutil unmount "$recoverydiskname"
@@ -124,33 +124,33 @@ case "$operatingmode" in
 		if [ ${getXver} -eq 8 ];
 			then
 			"$PathDiskOne/$toolpath" -c;
-			if [ $? -eq 1 ]; then echo "Firmware password not set. Setting it..."
+			if [ $? -eq 1 ]; then 
+				echo "Firmware password not set. Setting it now ... " >> /var/log/fwcld.log
 				"$PathDiskOne/$toolpath" -p $fwpassnew -m $fwmode
-			else
-			    echo "Firmware password previously set." >> /var/log/fwcld.log
-
+				echo "FileWave Firmware Password Status: FirmWare Password set correctly " >> /var/log/fwcld.log
+			else echo "Firmware password previously set." >> /var/log/fwcld.log
 			fi
 
-		    elif [ ${getXver} -eq 9 ];
+		elif [ ${getXver} -eq 9 ]
 			then
 			"$PathDiskTwo/$toolpath" -c;
-			if [ $? -eq 1 ]; then echo "Firmware password not set. Setting it..."
+			if [ $? -eq 1 ]; then 
+				echo "Firmware password not set. Setting it now ... " >> /var/log/fwcld.log
 				"$PathDiskTwo/$toolpath" -p $fwpassnew -m $fwmode
-            else
-                echo "Firmware password previously set." >> /var/log/fwcld.log
-
-            fi
-
-		    elif [ ${getXver} -eq 10 ];
+				echo "FileWave Firmware Password Status: FirmWare Password set correctly " >> /var/log/fwcld.log
+			else echo "Firmware password previously set." >> /var/log/fwcld.log
+			fi
+			
+		elif [ ${getXver} -eq 10 ] || [ ${getXver} -eq 11 ]
 			then
 			"$PathDiskTwo/$toolpath" -c;
-			if [ $? -eq 1 ]; then echo "Firmware password not set. Setting it..."
+			if [ $? -eq 1 ]; then 
+				echo "Firmware password not set. Setting it now ... " >> /var/log/fwcld.log
 				"$PathDiskTwo/$toolpath" -p $fwpassnew -m $fwmode
-            else
-                echo "Firmware password previously set." >> /var/log/fwcld.log
-
-            fi
-
+				echo "FileWave Firmware Password Status: FirmWare Password set correctly " >> /var/log/fwcld.log
+			else echo "Firmware password previously set." >> /var/log/fwcld.log
+			fi
+		
 		else
 			echo "FileWave Firmware Password Error: setregproptool: I've no idea what this OS version is! "${getXver} >> /var/log/fwcld.log
 			exit 1
@@ -203,7 +203,7 @@ case "$operatingmode" in
 			then
 				"$PathDiskTwo/$toolpath" -m $fwmode -p $fwpassnew -o $fwpassold
         echo "FileWave Firmware Password Status: Firmware Password change OK" >> /var/log/fwcld.log
-			elif [ ${getXver} -eq 10 ]
+			elif [ ${getXver} -eq 10 ] || [ ${getXver} -eq 11 ]
 			then
 				"$PathDiskTwo/$toolpath" -m $fwmode -p $fwpassnew -o $fwpassold
         echo "FileWave Firmware Password Status: Firmware Password change OK" >> /var/log/fwcld.log
@@ -240,7 +240,7 @@ case "$operatingmode" in
 			then
 				"$PathDiskTwo/$toolpath" -d -o $fwpassold
         echo "FileWave Firmware Password Status: Firmware Password removed OK" >> /var/log/fwcld.log
-			elif [ ${getXver} -eq 10 ]
+			elif [ ${getXver} -eq 10 ] || [ ${getXver} -eq 11 ]
 			then
 				"$PathDiskTwo/$toolpath" -d -o $fwpassold
         echo "FileWave Firmware Password Status: Firmware Password removed OK" >> /var/log/fwcld.log
