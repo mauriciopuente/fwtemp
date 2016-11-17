@@ -2,7 +2,7 @@
 
 # Author: Mauricio Puente Cadena.
 # Works on FileWave v11
-#Reads Filewave client names values from a CSV file, and writes the Asset tag to Clients view comments.
+#Reads Filewave client Serial Numbers from a CSV file, and writes the Asset tag to Clients view comments.
 #
 #CSV Format is:
 #SerialNumber,Asset Tag
@@ -36,7 +36,7 @@ print "\nThis is the list :\n",my_list
 
 print "\n\n*************************************************************************************************\n"
 print "This script will add Asset Tag info in the Comment's field on Filewave Admin's Clients view \n"
-print "Remember to have the naming.csv file saved in /usr/local/etc/naming.csv \n"
+print "Remember to have the assettags.csv file saved in /usr/local/etc/assettags.csv \n"
 print "*************************************************************************************************\n\n"
 
 

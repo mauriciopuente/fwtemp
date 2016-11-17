@@ -56,3 +56,7 @@ connection.commit()
 
 # Close the db connection
 connection.close()
+
+if udids:
+    print "Send apns"
+    send_apn_to_devices(udids=udids)
