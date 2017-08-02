@@ -10,7 +10,7 @@ c=0
 for i in $temp
 do
 
-    if [ -d /Users/${i}/Library/Application\ Support/Google/Chrome/Default/Extensions/fdcgdnkidjaadafnichfpabhfomcebme ]
+    if [ -d /Users/${i}/Library/Application\ Support/Google/Chrome/Default/Extensions/felcaaldnbdncclmgdcncolpebgiejap ]
         then
             c=1
     fi

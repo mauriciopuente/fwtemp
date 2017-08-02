@@ -17,7 +17,17 @@ OUTPUT_FILENAME = "Mauricio-Export.csv"
 import urllib2
 import json
 import sys
-import codecs	
+import codecs
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    # Legacy Python that doesn't verify HTTPS certificates by default
+    pass
+else:
+    # Handle target environment that doesn't support HTTPS verification
+    ssl._create_default_https_context = _create_unverified_https_context
 
 def run_query(QUERY_ID,OUTPUT_FILENAME,SERVER_NAME,SERVER_PORT,SHARED_SECRET):
 	#get the query definition and name for the specified ID

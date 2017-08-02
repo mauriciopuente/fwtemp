@@ -26,7 +26,7 @@ if len(filepath) > 0 and os.path.exists(filepath):
         udid = user.mdm_client.udid
         print "Add Remove app Command device with udid %s" % udid
         cq = CommandQueue(user)
-        cq.create_remove_application_command(bundle_identifier="com.filament.dihar2",)
+        cq.create_remove_application_command(bundle_identifier="com.apple.Pages",)
         cq.sync_to_db()
 
 
