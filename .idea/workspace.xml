@@ -2,298 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="Changed CSV to Comment Perfect3 python script">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resful_mo_python279.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FWlogs_4.py.zip" afterPath="$PROJECT_DIR$/FWlogs_4.py.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimSlater_2016_10_25__7_52_19.csv" afterPath="$PROJECT_DIR$/TimSlater_2016_10_25__7_52_19.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assettagtocomment.py.zip" afterPath="$PROJECT_DIR$/assettagtocomment.py.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/185test.db" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/185test.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/Sine-1000Hz-300ms.aif" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/Sine-1000Hz-300ms.aif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.aiff" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.aiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.au" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.au" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.wav" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm16.wav" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm24.aiff" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm24.aiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm24.wav" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm24.wav" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.aiff" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.aiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.au" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.au" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.wav" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm32.wav" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.aiff" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.aiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.au" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.au" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.wav" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-pcm8.wav" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-ulaw.aifc" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-ulaw.aifc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-ulaw.au" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiodata/pluck-ulaw.au" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiotest.au" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/audiotest.au" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.bmp" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.bmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.gif" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.jpg" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.pbm" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.pbm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.pgm" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.pgm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.png" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.ppm" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.ppm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.ras" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.ras" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.sgi" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.sgi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.tiff" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.tiff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.xbm" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/imghdrdata/python.xbm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testtar.tar" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testtar.tar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/test.xml.out" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/test.xml.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/zipdir.zip" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/zipdir.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/site-packages.zip" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/site-packages.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/base_library.zip" afterPath="$PROJECT_DIR$/build/openURL2/base_library.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-PKG.pkg" afterPath="$PROJECT_DIR$/build/openURL2/out00-PKG.pkg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-PYZ.pyz" afterPath="$PROJECT_DIR$/build/openURL2/out00-PYZ.pyz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwtemp" afterPath="$PROJECT_DIR$/fwtemp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/massrenameipadsWINcompatible.py.zip" afterPath="$PROJECT_DIR$/massrenameipadsWINcompatible.py.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mount_smb_share.sh.zip" afterPath="$PROJECT_DIR$/mount_smb_share.sh.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_duplicates_comment.py.zip" afterPath="$PROJECT_DIR$/old_duplicates_comment.py.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fwtemp.iml" afterPath="$PROJECT_DIR$/.idea/fwtemp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/README.ctypes" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/README.ctypes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/fetch_macholib" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/fetch_macholib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/fetch_macholib.bat" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/ctypes/macholib/fetch_macholib.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/distutils/README" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/distutils/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/badcert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/badcert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/badkey.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/badkey.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/4e1295a3.0" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/4e1295a3.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/5ed36f99.0" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/5ed36f99.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/6e88d7b8.0" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/6e88d7b8.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/99d0fa06.0" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/capath/99d0fa06.0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cfgparser.1" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cfgparser.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/check_soundcard.vbs" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/check_soundcard.vbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5hkscs-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5hkscs-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5hkscs.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/big5hkscs.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/cp949-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/cp949-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/cp949.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/cp949.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jisx0213-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jisx0213-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jisx0213.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jisx0213.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jp-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jp-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jp.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_jp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_kr-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_kr-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_kr.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/euc_kr.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb18030-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb18030-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb18030.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb18030.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb2312-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb2312-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb2312.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gb2312.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gbk-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gbk-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gbk.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/gbk.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/hz-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/hz-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/hz.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/hz.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_jp-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_jp-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_jp.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_jp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_kr-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_kr-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_kr.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/iso2022_kr.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/johab-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/johab-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/johab.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/johab.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jis-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jis-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jis.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jis.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jisx0213-utf8.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jisx0213-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jisx0213.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cjkencodings/shift_jisx0213.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cmath_testcases.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/cmath_testcases.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/data/README" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/data/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/abs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/abs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/add.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/add.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/and.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/and.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/base.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/base.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/clamp.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/clamp.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/class.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/class.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/compare.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/compare.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/comparetotal.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/comparetotal.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/comparetotmag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/comparetotmag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copy.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copy.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copyabs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copyabs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copynegate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copynegate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copysign.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/copysign.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAbs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAbs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAdd.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAdd.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAnd.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddAnd.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddBase.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddBase.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCanonical.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCanonical.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddClass.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddClass.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompare.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompare.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareSig.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareSig.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareTotal.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareTotal.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareTotalMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCompareTotalMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopy.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopy.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopyAbs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopyAbs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopyNegate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopyNegate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopySign.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddCopySign.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddDivide.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddDivide.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddDivideInt.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddDivideInt.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddEncode.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddEncode.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddFMA.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddFMA.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddInvert.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddInvert.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddLogB.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddLogB.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMax.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMax.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMaxMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMaxMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMin.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMin.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMinMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMinMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMinus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMinus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMultiply.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddMultiply.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextMinus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextMinus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextPlus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextPlus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextToward.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddNextToward.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddOr.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddOr.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddPlus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddPlus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddQuantize.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddQuantize.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddReduce.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddReduce.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRemainder.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRemainder.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRemainderNear.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRemainderNear.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRotate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddRotate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddSameQuantum.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddSameQuantum.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddScaleB.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddScaleB.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddShift.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddShift.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddSubtract.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddSubtract.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddToIntegral.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddToIntegral.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddXor.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ddXor.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decDouble.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decDouble.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decQuad.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decQuad.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decSingle.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/decSingle.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/divide.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/divide.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/divideint.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/divideint.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAbs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAbs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAdd.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAdd.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAnd.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqAnd.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqBase.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqBase.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCanonical.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCanonical.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqClass.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqClass.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompare.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompare.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareSig.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareSig.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareTotal.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareTotal.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareTotalMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCompareTotalMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopy.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopy.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopyAbs.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopyAbs.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopyNegate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopyNegate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopySign.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqCopySign.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqDivide.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqDivide.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqDivideInt.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqDivideInt.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqEncode.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqEncode.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqFMA.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqFMA.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqInvert.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqInvert.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqLogB.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqLogB.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMax.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMax.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMaxMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMaxMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMin.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMin.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMinMag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMinMag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMinus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMinus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMultiply.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqMultiply.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextMinus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextMinus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextPlus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextPlus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextToward.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqNextToward.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqOr.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqOr.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqPlus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqPlus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqQuantize.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqQuantize.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqReduce.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqReduce.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRemainder.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRemainder.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRemainderNear.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRemainderNear.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRotate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqRotate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqSameQuantum.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqSameQuantum.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqScaleB.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqScaleB.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqShift.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqShift.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqSubtract.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqSubtract.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqToIntegral.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqToIntegral.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqXor.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dqXor.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dsBase.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dsBase.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dsEncode.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/dsEncode.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/exp.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/exp.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/extra.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/extra.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/fma.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/fma.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/inexact.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/inexact.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/invert.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/invert.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ln.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/ln.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/log10.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/log10.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/logb.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/logb.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/max.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/max.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/maxmag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/maxmag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/min.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/min.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/minmag.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/minmag.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/minus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/minus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/multiply.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/multiply.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nextminus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nextminus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nextplus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nextplus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nexttoward.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/nexttoward.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/or.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/or.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/plus.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/plus.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/power.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/power.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/powersqrt.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/powersqrt.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/quantize.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/quantize.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/randomBound32.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/randomBound32.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/randoms.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/randoms.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/reduce.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/reduce.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/remainder.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/remainder.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/remainderNear.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/remainderNear.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rescale.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rescale.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rotate.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rotate.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rounding.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/rounding.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/samequantum.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/samequantum.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/scaleb.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/scaleb.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/shift.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/shift.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/squareroot.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/squareroot.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/subtract.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/subtract.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/testall.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/testall.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/tointegral.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/tointegral.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/tointegralx.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/tointegralx.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/xor.decTest" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/decimaltestdata/xor.decTest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/dh1024.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/dh1024.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/empty.vbs" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/empty.vbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/exception_hierarchy.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/exception_hierarchy.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/floating_points.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/floating_points.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/formatfloat_testcases.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/formatfloat_testcases.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/greyrgb.uue" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/greyrgb.uue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/https_svn_python_org_root.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/https_svn_python_org_root.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ieee754.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ieee754.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert.passwd.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert.passwd.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert2.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert2.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert3.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert3.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert4.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/keycert4.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/math_testcases.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/math_testcases.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nokia.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nokia.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nullbytecert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nullbytecert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nullcert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/nullcert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/pycacert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/pycacert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv2_32.pck" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv2_32.pck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv2_64.pck" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv2_64.pck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv3.pck" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/randv3.pck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/revocation.crl" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/revocation.crl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/selfsigned_pythontestdotnet.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/selfsigned_pythontestdotnet.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/sgml_input.html" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/sgml_input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/sha256.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/sha256.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_cert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_cert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_key.passwd.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_key.passwd.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_key.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/ssl_key.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/subprocessdata/sigchild_ignore.py" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/subprocessdata/sigchild_ignore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_difflib_expect.html" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_difflib_expect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest2.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest3.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest4.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/test_doctest4.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testimg.uue" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testimg.uue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testimgr.uue" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testimgr.uue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testrgb.uue" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/testrgb.uue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/tokenize_tests.txt" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/tokenize_tests.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/wrongcert.pem" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/wrongcert.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/simple-ns.xml" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/simple-ns.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/simple.xml" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/test.xml" afterPath="$PROJECT_DIR$/build/bdist.macosx-10.11-intel/python2.7-standalone/app/collect/test/xmltestdata/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-Analysis.toc" afterPath="$PROJECT_DIR$/build/openURL2/out00-Analysis.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-EXE.toc" afterPath="$PROJECT_DIR$/build/openURL2/out00-EXE.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-PKG.toc" afterPath="$PROJECT_DIR$/build/openURL2/out00-PKG.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/out00-PYZ.toc" afterPath="$PROJECT_DIR$/build/openURL2/out00-PYZ.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/openURL2/warnopenURL2.txt" afterPath="$PROJECT_DIR$/build/openURL2/warnopenURL2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/openURL2.app/Contents/Info.plist" afterPath="$PROJECT_DIR$/dist/openURL2.app/Contents/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/openURL2.app/Contents/PkgInfo" afterPath="$PROJECT_DIR$/dist/openURL2.app/Contents/PkgInfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/openURLTEST.app/Contents/Info.plist" afterPath="$PROJECT_DIR$/dist/openURLTEST.app/Contents/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/openURLTEST.app/Contents/PkgInfo" afterPath="$PROJECT_DIR$/dist/openURLTEST.app/Contents/PkgInfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hmhsecbrowser.sh" afterPath="$PROJECT_DIR$/hmhsecbrowser.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/is_chromeext_there.sh" afterPath="$PROJECT_DIR$/is_chromeext_there.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mo_API_test.py" afterPath="$PROJECT_DIR$/mo_API_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openURL2.spec" afterPath="$PROJECT_DIR$/openURL2.spec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remove_app_from_iOS.py" afterPath="$PROJECT_DIR$/remove_app_from_iOS.py" />
     </list>
     <ignored path="fwtemp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -326,18 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="massWipeiOS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/massWipeiOS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testmasswipewin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testmasswipewin.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -362,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="massrenameipadsWINcompatible_v12.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="massrenameipadsWINcompatible_v12.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/massrenameipadsWINcompatible_v12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.12348178">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -424,6 +122,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Change_FW_ClientName_from_SERIAL.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Change_FW_ClientName_from_SERIAL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0708502">
+              <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -460,8 +168,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2019" />
-    <option name="y" value="40" />
+    <option name="x" value="879" />
+    <option name="y" value="45" />
     <option name="width" value="1681" />
     <option name="height" value="848" />
   </component>
@@ -490,8 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,7 +227,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SignInCheckGD.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Confluence_7274689" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -697,10 +405,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2019" y="40" width="1681" height="848" extended-state="0" />
+    <frame x="879" y="45" width="1681" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16597264" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -985,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Change_FW_ClientName_from_SERIAL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNav_shortcut.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1031,9 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="58" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#502#512#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,31 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fw-massrenameipads.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restful_mo_python279_RH_TEST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Change_Name_from_Serial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,6 +786,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/massrenameipadsWINcompatible_v12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/old_duplicates_comment_v12_compatible.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1132,13 +812,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/massrenameipadsWINcompatible_v12.py">
+    <entry file="file://$PROJECT_DIR$/fw-massrenameipads.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12348178">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restful_mo_python279_RH_TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Change_Name_from_Serial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Change_FW_ClientName_from_SERIAL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0708502">
+          <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
