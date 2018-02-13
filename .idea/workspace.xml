@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="Changed CSV to Comment Perfect3 python script">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwtemp" afterPath="$PROJECT_DIR$/fwtemp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py.zip" afterPath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py" afterPath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py" />
-    </list>
+    <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="Changed CSV to Comment Perfect3 python script" />
     <ignored path="fwtemp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,8 +162,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2663" />
-    <option name="y" value="196" />
+    <option name="x" value="766" />
+    <option name="y" value="154" />
     <option name="width" value="1681" />
     <option name="height" value="848" />
   </component>
@@ -226,7 +221,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Confluence_7274689" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -404,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2663" y="196" width="1681" height="848" extended-state="0" />
+    <frame x="766" y="154" width="1681" height="848" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
