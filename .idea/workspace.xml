@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd960e3-4d0d-4abb-a09a-d28e500aeeb1" name="Default" comment="Changed CSV to Comment Perfect3 python script">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fwtemp" afterPath="$PROJECT_DIR$/fwtemp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py.zip" afterPath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py" afterPath="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py" />
     </list>
     <ignored path="fwtemp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,30 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assettagtocomment_fw12.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assettagtocomment_fw12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding>
-                <element signature="e#505#515#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testmasswipewin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testmasswipewin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SignInCheckGD.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/SignInCheckGD.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,6 +70,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ipads_to_be_deleted_v12compatible.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ipads_to_be_deleted_v12compatible_SERIALS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ipads_to_be_deleted_v12compatible_SERIALS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48582995">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="fw-massrenameipads.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fw-massrenameipads.sh">
           <provider selected="true" editor-type-id="text-editor">
@@ -122,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Change_FW_ClientName_from_SERIAL.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Change_FW_ClientName_from_SERIAL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Change_FW_ClientName_from_SERIAL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0708502">
+            <state vertical-scroll-proportion="0.0">
               <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
               <folding />
             </state>
@@ -164,12 +162,13 @@
         <option value="$PROJECT_DIR$/massWipeiOS.py" />
         <option value="$PROJECT_DIR$/testmasswipewin.py" />
         <option value="$PROJECT_DIR$/massrenameipadsWINcompatible_v12.py" />
+        <option value="$PROJECT_DIR$/ipads_to_be_deleted_v12compatible_SERIALS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="879" />
-    <option name="y" value="45" />
+    <option name="x" value="2663" />
+    <option name="y" value="196" />
     <option name="width" value="1681" />
     <option name="height" value="848" />
   </component>
@@ -198,8 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +217,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,8 +404,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="45" width="1681" height="848" extended-state="0" />
-    <editor active="true" />
+    <frame x="2663" y="196" width="1681" height="848" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,20 +467,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imaging_logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImagingServer_StaticIP.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex_practica.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -753,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#505#515#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fw-massrenameipads_FW12.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fw-massrenameipads.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -838,8 +809,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Change_FW_ClientName_from_SERIAL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0708502">
+        <state vertical-scroll-proportion="0.0">
           <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fw-massrenameipads_FW12.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipads_to_be_deleted_v12compatible.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipads_to_be_deleted_v12compatible_SERIALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48582995">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>

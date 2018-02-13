@@ -28,7 +28,7 @@ print (udids)
 
 # select name from admin.user_clone_group where type =24 and id = (select a.id from admin.user_clone_group a, admin.mobile_client_info b where b.udid = '%s' and b.ucg_id = a.id
 
-statement = '''update admin.user_clone_group set comment = 'TO BE DELETED' where type =24 and id = (select a.id from admin.user_clone_group a, admin.mobile_client_info b where b.udid = '%s' and b.ucg_id = a.id)'''
+statement = '''update admin.user_clone_group set comment = 'TO BE DELETED' where type =24 and id = (select a.id from admin.user_clone_group a, admin.mobile_client_info b, generic_genericclient c where c.serial_number = '%s' and c.device_id = b.udid and b.ucg_id = a.id)'''
 
 
 for i in udids:
