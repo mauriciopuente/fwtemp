@@ -6,29 +6,26 @@ import getpass
 import datetime
 import tempfile
 import tarfile
-import re
-import zipfile
+import json
+import time
 
 
-unix_mdm_dump = '/tmp/mdm-dump.sql'
-win_mdm_dump = ''
+unix_mdm_dump = '/tmp/'
+win_mdm_dump = 'C:\\'
 unix_pgdump = '/usr/local/filewave/postgresql/bin/pg_dump'
-win_pgdump = ''
+now = datetime.datetime.now()
+# licensefile = ''
+# mdm_dump = ''
+# pgdump = ''
+# fw_dir = ''
+# fwxversion = ''
+# osinfo = ''
 
-mdm_dump = ''
-pgdump = ''
 
 # Function to compress files.
 def make_tarfile(output_filename, source_dir):
     with tarfile.open(output_filename, "w:gz") as tar:
         tar.add(source_dir, arcname=os.path.basename(source_dir))
-
-
-# Renames the mdm dump if it already exists.
-def rename_mdm_dump(mdmdump):
-    if os.path.exists(mdmdump):
-        print("File "+mdmdump+" already exists. Renaming...")
-        os.rename(mdmdump, mdmdump+'_OLD')
 
 
 # Gets the MDM dump.
@@ -42,22 +39,95 @@ def dump_db(pgdump_location,mdm_dump_location):
         print("Return Code :\n",p.returncode)
 
 
+# Check if the script is on a FileWave Server.
+def is_this_fw_server(fw_folder_location):
+    return os.path.exists(fw_folder_location)
+
+
+
+# Get the FW license code.
+def create_licstr(lic_file):
+    #retreive the uuid we use for identification
+    try :
+        licfile = open(lic_file,'r')
+        licjson = json.loads(licfile.read())
+        licid = licjson['uuid']
+        licfile.close()
+    except :
+        ### TBD : Create 32bit eval id string containing servername ####
+        licid = "0110010101110110011000010000eval"
+        #print "no unique identification file found .. generating id for identification"
+    return(licid)
+
+
 # Check what OS the server is running on
 if os.name == 'posix' and (platform.system() == 'Darwin' or platform.system() == 'Linux' or  platform.system() == 'Linux2'):
-    print("This is a Unix OS : "+platform.system())
+    print("This is a Unix OS : ")
     mdm_dump = unix_mdm_dump
     pgdump = unix_pgdump
+    licensefile = '/usr/local/etc/fwxcodes'
+    is_postgres_running = 'fwxserver/DB/pg_data' in subprocess.check_output(['ps','-ax']).decode("utf-8")
+    startpostgres = lambda : subprocess.call(['fwcontrol','postgres','start'])
+    fwxserver_loc = '/usr/local/sbin/fwxserver'
+    osname = platform.platform(aliased=True)
+    if 'Darwin' in osname:
+        osinfo = subprocess.check_output(['defaults','read','/System/Library/CoreServices/SystemVersion.plist','ProductVersion']).decode("utf-8")
+        osinfo = osinfo.replace('\n','')
+        osinfo = "MacOS"+osinfo
+    else:
+        osinfo = osname
 else:
-    print("This is Windows")
-    mdm_dump = win_mdm_dump
-    pgdump = win_pgdump
+    print("This is a Windows OS :")
 
-print("Renaming mdm dump file if there is one ...")
-rename_mdm_dump(mdm_dump)
-print("Dumping customer DB ...")
-dump_db(pgdump,mdm_dump)
-print("Compressing mdm dump ... ")
-make_tarfile('mdm-dump.tar.gz', mdm_dump)
+    try:
+        filewave_dir = os.path.join(os.environ['PROGRAMFILES(x86)'],'FileWave')
+    except KeyError:
+        filewave_dir = os.path.join(os.environ['PROGRAMFILES'],'FileWave')
+
+    mdm_dump = win_mdm_dump
+    pgdump = os.path.join(filewave_dir,'postgresql\\bin\\pg_dump.exe')
+    licensefile = os.path.join(os.environ['PROGRAMDATA'], 'FileWave\\FWServer\\fwxcodes')
+    is_postgres_running = 'postgres.exe' in subprocess.check_output(['tasklist.exe','/v']).decode("utf-8")
+    startpostgres = lambda : subprocess.call(['sc','start','FileWave MDM PostgreSQL'])
+    osname = platform.platform(aliased=True)
+    osinfo = osname
+    fwxserver_loc = os.path.join(filewave_dir,'bin\\fwxserver.exe')
+
+
+######### MAIN ###########
+
+print('Operating System:', platform.platform(aliased=True))
+print('Short Name  :', platform.platform(terse=True))
+
+if is_this_fw_server(pgdump):
+    try:
+        if not is_postgres_running:
+            startpostgres()
+            print("Starting Postgres, this may take a few seconds ...")
+            time.sleep(10)
+            if 'Windows' not in osname:
+                is_postgres_running = 'fwxserver/DB/pg_data' in subprocess.check_output(['ps','-ax']).decode("utf-8")
+            else:
+                is_postgres_running = 'postgres.exe' in subprocess.check_output(['tasklist.exe','/v']).decode("utf-8")
+            if not is_postgres_running:
+                print("We could not start the Postgres process, please start it manually and run this script again.")
+                sys.exit(1)
+        fwxversion = subprocess.check_output([fwxserver_loc,'-V']).decode("utf-8")
+        fwxversion = fwxversion.replace('fwxserver ','')
+        fwxversion = fwxversion.replace('\r','')
+        fwxversion = fwxversion.replace('\n','')
+        license_str = create_licstr(licensefile)
+        timestr = str(now.month)+"_"+str(now.day)+"_"+str(now.year)+"_"+str(now.hour)+"_"+str(now.minute)
+        datafilename = license_str +"-"+ fwxversion +"-"+ osinfo +"-"+timestr+".sql"
+        print("Dumping customer MDM DB ...")
+        mdm_dump = mdm_dump+str(datafilename)
+        dump_db(pgdump,mdm_dump)
+        print("Compressing MDM dump ... ")
+        make_tarfile(mdm_dump+'.tar.gz', mdm_dump)
+    except KeyError:
+        print("An exception was thrown running this script. Please try again or contact your IT admin")
+else:
+    print("This script has to be run on your FileWave Server.")
 
 
 
