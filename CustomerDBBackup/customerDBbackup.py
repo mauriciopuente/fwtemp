@@ -1,8 +1,6 @@
 import os, sys
 import platform
 import subprocess
-import shutil
-import getpass
 import datetime
 import requests
 import tarfile
@@ -27,7 +25,6 @@ def dump_db(pgdump_location,mdm_dump_location):
     try:
         p = subprocess.Popen([pgdump_location,"-U","django","--encoding=UTF8","-c","-f",mdm_dump_location,"-N","committed_*","mdm"],stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out,err = p.communicate()
-        #print("Output :\n",out)
     except Exception:
         print("There was an error dumping the Data Base :\n",err)
         print("Return Code :\n",p.returncode)
@@ -72,7 +69,6 @@ if os.name == 'posix' and (platform.system() == 'Darwin' or platform.system() ==
         osinfo = osname
 else:
     #print("This is a Windows OS :")
-
     try:
         filewave_dir = os.path.join(os.environ['PROGRAMFILES(x86)'],'FileWave')
     except KeyError:
@@ -113,7 +109,7 @@ if is_this_fw_server(pgdump):
         license_str = create_licstr(licensefile)
         timestr = str(now.month)+"_"+str(now.day)+"_"+str(now.year)+"_"+str(now.hour)+"_"+str(now.minute)
         datafilename = license_str +"-"+ fwxversion +"-"+ osinfo +"-"+timestr+".sql"
-        print("Dumping customer MDM DB ...")
+        print("Dumping MDM DB ...")
         mdm_dump = mdm_dump+str(datafilename)
         dump_db(pgdump,mdm_dump)
         print("Compressing MDM dump ... ")
@@ -121,29 +117,27 @@ if is_this_fw_server(pgdump):
         print('File created with name : '+mdm_dump)
 
         # Upload the MDM dump to FileWave's SeaFile:
-        r = requests.post('https://files.filewave.ch/api2/auth-token/', {'username':'autoupload@filewave.com','password':'eatitnow'})
+        r = requests.post('https://files.filewave.net/api2/auth-token/', {'username':'qa@filewave.com','password':'qaAut0m@t3'})
         if r.status_code != 200:
-            print("There is an issue connecting to SeaFile from this Server. Please make sure the server is connected to the Internet or upload the MDM dump manually.")
+            print("There is an issue connecting to SeaFile from this Server. Please make sure the server is connected to the Internet or contact FileWave support to upload the MDM dump manually.")
         else:
             token = r.json()['token']
             #print(token)
-            a = requests.get('https://files.filewave.ch/api2/default-repo/', headers={'Authorization':'Token '+token})
+            a = requests.get('https://files.filewave.net/api2/default-repo/', headers={'Authorization':'Token '+token})
             # Check if there are repos
             if a.json()['exists'] == False:
-                print("There are no repos on SeaFile, create a repo ot upload the MDM dump.")
+                print("There are no repos on SeaFile, create a repo to upload the MDM dump.")
             else:
-                #print("Repo ID :")
-                #print(a.json())
                 # Get the Upload link
                 repoid = a.json()['repo_id']
-                resp = requests.get('https://files.filewave.ch/api2/repos/'+repoid+'/upload-link/', headers={'Authorization':'Token '+token})
+                resp = requests.get('https://files.filewave.net/api2/repos/'+repoid+'/upload-link/', headers={'Authorization':'Token '+token})
                 upload_link = resp.json()
                 # Upload file to repo
                 print("Uploading MDM dump to FileWave File Servers. This will take a while ...")
                 response = requests.post(upload_link, data={'filename': str(datafilename)+'.tar.gz', 'parent_dir': '/'},files={'file': open(mdm_dump+'.tar.gz', 'rb')},headers={'Authorization': 'Token '+token})
                 print(response)
                 if response.status_code == 200:
-                    print("File with name : "+str(datafilename)+".tar.gz uploaded successfully to SeaFile. Please update your support ticket with this information.")
+                    print("File with name : "+str(datafilename)+".tar.gz uploaded successfully to FileWave File Servers. Please update your support ticket with this information.")
                 else:
                     print("There is an issue uploading to SeaFile from this Server. Please make sure the server is connected to the Internet or upload the MDM dump manually.")
     except KeyError:
