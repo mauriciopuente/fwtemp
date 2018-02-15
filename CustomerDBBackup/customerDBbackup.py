@@ -14,12 +14,6 @@ unix_mdm_dump = '/tmp/'
 win_mdm_dump = 'C:\\'
 unix_pgdump = '/usr/local/filewave/postgresql/bin/pg_dump'
 now = datetime.datetime.now()
-# licensefile = ''
-# mdm_dump = ''
-# pgdump = ''
-# fw_dir = ''
-# fwxversion = ''
-# osinfo = ''
 
 
 # Function to compress files.
@@ -149,7 +143,7 @@ if is_this_fw_server(pgdump):
                 response = requests.post(upload_link, data={'filename': str(datafilename)+'.tar.gz', 'parent_dir': '/'},files={'file': open(mdm_dump+'.tar.gz', 'rb')},headers={'Authorization': 'Token '+token})
                 print(response)
                 if response.status_code == 200:
-                    print("File with name : "+str(datafilename)+".tar.gz uploaded successfully to SeaFile. If your FileWave Engineer is not present, please send him/her the filename.")
+                    print("File with name : "+str(datafilename)+".tar.gz uploaded successfully to SeaFile. Please update your support ticket with this information.")
                 else:
                     print("There is an issue uploading to SeaFile from this Server. Please make sure the server is connected to the Internet or upload the MDM dump manually.")
     except KeyError:
